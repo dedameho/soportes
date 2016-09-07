@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>
+            SOPORTES
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css\bootstrap.css">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+       <div class="centrar">
+           <section >
+                  <div class="panel panel-success ">
+                  <div class="panel-heading">
+                         <h1 >SOPORTES</h1>
+                  </div>
+                  <div class="panel-body">
+                   <form action="conexion.php" method="post">
+                    <h3 >Servicio</h3>
+                    <select  class="form-control" name="servicio">
+                       <option value=""></option>
+                        <option value="Hospitalizacion 3">Hospitalizacion 3</option> 
+                        <option value="Hospitalizacion 4">Hospitalizacion 4</option> 
+                        <option value="UCI Adultos">UCI Adultos</option>
+                        <option value="UCI Neonatos">UCI Neonatos</option> 
+                        <option value="URGENCIAS">Urgencias</option> 
+                        <option value="CONSULTA EXTERNA">Consulta Externa</option> 
+                    </select>
+                    <h3 >Solicitante</h3>
+                    <input  class="form-control" type="text" name="solicitante">
+                    <h3 >Fecha De Solicitud</h3>
+                    <input class="form-control" type="date" name="fechaSolicitud">
+                    <h3 >Descripcion</h3>
+                    </br>
+                    <textarea  class="form-control" name="descripcion"></textarea>
+                       <div class="panel-footer">
+                       <center>
+                       <input class="btn btn-primary" type="submit" name="submit" value="ENVIAR">
+                       </center>
+                       </div>  
+                    </form>
+                    </div>
+                    </div>
+            </section>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+CREATE TABLE `soportes`.`soporte` ( `num` INT NOT NULL AUTO_INCREMENT , `servicio` VARCHAR(25) NOT NULL , `solicitante` VARCHAR(25) NOT NULL , `fechaSolicitud` DATE NOT NULL , `descripcion` VARCHAR(100) NOT NULL , PRIMARY KEY (`num`)) ENGINE = InnoDB;
