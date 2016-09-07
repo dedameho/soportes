@@ -2,9 +2,15 @@
 <html>
 <head>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-<div class="container-fluid">
+<div class="container-fluid centrar">
+   <div class="panel panel-success">
+    <div class="panel-heading">
+        <h3>Soportes Vigentes</h3>
+    </div>
+    <div class="panel-body"></div>
 <table class="table table-striped">
 <?php
 //Ejemplo aprenderaprogramar.com
@@ -15,6 +21,7 @@ echo "<th>Servicio</th>";
 echo "<th>Solicitante</th>";
 echo "<th>Fecha de Solicitud</th>";
 echo "<th>Descripcion</th>";
+//echo "<th>  </th>";
 echo '</tr>';
 function mostrarDatos ($resultados) {
     
@@ -39,6 +46,7 @@ mysqli_free_result($result);
 mysqli_close($link);
 ?>
 </table>
+</div>
 </div>
 </body>
 </html>  

@@ -4,3 +4,10 @@
     margin: 0 auto;
     margin-top: 50px;
 }
+
+.login {
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+}

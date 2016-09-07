@@ -5,7 +5,7 @@
             SOPORTES
         </title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="css\bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/estilos.css">
     </head>
     <body>
@@ -18,7 +18,7 @@
                   <div class="panel-body">
                    <form action="conexion.php" method="post">
                     <h3 >Servicio</h3>
-                    <select  class="form-control" name="servicio">
+                    <select  class="form-control" name="servicio" required>
                        <option value=""></option>
                         <option value="Hospitalizacion 3">Hospitalizacion 3</option> 
                         <option value="Hospitalizacion 4">Hospitalizacion 4</option> 
@@ -28,12 +28,12 @@
                         <option value="CONSULTA EXTERNA">Consulta Externa</option> 
                     </select>
                     <h3 >Solicitante</h3>
-                    <input  class="form-control" type="text" name="solicitante">
+                    <input  class="form-control" type="text" name="solicitante" required>
                     <h3 >Fecha De Solicitud</h3>
-                    <input class="form-control" type="date" name="fechaSolicitud">
+                    <input class="form-control" type="date" name="fechaSolicitud" required>
                     <h3 >Descripcion</h3>
                     </br>
-                    <textarea  class="form-control" name="descripcion"></textarea>
+                    <textarea  class="form-control" name="descripcion" required></textarea>
                        <div class="panel-footer">
                        <center>
                        <input class="btn btn-primary" type="submit" name="submit" value="ENVIAR">
